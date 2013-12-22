@@ -10,4 +10,4 @@ Plus3 App - Maquetado
 <p>1. Maquetar una segunda propuesta de Home manteniendo todos los elementos, es decir, generar una nueva hoja de estilos conservando el mismo index.html</p>
 
 <h3>Propuesta para la Home Puls3R:</h3>
-<img src="http://d13yacurqjgara.cloudfront.net/users/80778/screenshots/1354186/attachments/192710/home-p.jpg" alt="home para la app" width="600px">
+<img src="http://d13yacurqjgara.cloudfront.net/users/80778/screenshots/1354186/attachments/192710/home-p.jpg" alt="home para la app" width="500px">
