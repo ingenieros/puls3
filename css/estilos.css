@@ -13,10 +13,12 @@ Reglas de codificación en CSS
 3. Orden alfabético todos los estilos
 4. Identar y hacer código lindo	
 */
-
+a {
+	color: orange;
+}
 body {
 	background: #efefef;
-	font-family: arial;
+	font-family: 'PT Sans', arial, sans-serif;
 	font-size: 16px;
 	margin: 0;
 }
@@ -78,6 +80,9 @@ nav #flechita_nav a{
 	padding: 0.5em 0.5em;
 	text-decoration: none;
 }
+nav #flechita_nav {
+
+}
 nav #publicar_nav{
 	float: right;
 	margin-right: 0;
@@ -94,6 +99,17 @@ nav #publicar_nav a{
 	background: white;
 	border-bottom: 3px solid #22BCE0;
 }
+#contenido .item p {
+	color: #7a7a7a;
+	font-size: 0.9em;
+}
+#contenido .item .datos_item .tag_item{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
 #contenido .item .imagen_item {
 	float: left;
 	margin: 0 1em 0 0;
@@ -101,7 +117,17 @@ nav #publicar_nav a{
 #contenido .item .imagen_item img {
 	width: 92px;
 }
-
+#contenido .item .titulo_item {
+	font-size: 1em;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+#contenido .item .titulo_item a {
+	color: #444;
+	text-decoration: none;
+	
+}
 
 
 
