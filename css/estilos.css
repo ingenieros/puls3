@@ -22,6 +22,16 @@ body {
 	font-size: 16px;
 	margin: 0;
 }
+footer {
+	background: #434343;
+	color: #a7a7a7;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+footer p {
+	margin: 0;
+}
 header {
 	background: #434343;
 	color: white;
@@ -47,6 +57,9 @@ header #avatar figcaption {
 	float: right;
 	height: 50px;
 	padding: 0  2px;
+}
+header #avatar figcaption:after {
+
 }
 header #avatar img {
 	float: left;
@@ -77,10 +90,10 @@ nav ul li a {
 }
 nav #flechita_nav a{
 	background: #22BCE0;
-	padding: 0.5em 0.5em;
+	padding: 0.5em;
 	text-decoration: none;
 }
-nav #flechita_nav {
+nav #flechita_nav a:after {
 
 }
 nav #publicar_nav{
@@ -92,21 +105,43 @@ nav #publicar_nav a{
 	padding: 0.5em 1em;
 	text-decoration: none;
 }
+#bienvenida {
+	display: none;
+}
 #contenido{
 	margin: 1em;
 }
 #contenido .item {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 123px;
+	position: relative;
 }
 #contenido .item p {
 	color: #7a7a7a;
 	font-size: 0.9em;
 }
+#contenido .item .datos_item {
+	text-align: right;
+}
+#contenido .item .datos_item .comentarios_item {
+	background: #878787;
+	border-radius: 4px;
+	color: white;
+	margin: 0 0 0 2em;
+	padding: 4px;
+	text-decoration: none;
+}
+#contenido .item .datos_item .guardar_item {
+	margin: 0 1em;
+	text-decoration: none;
+}
 #contenido .item .datos_item .tag_item{
 	background: #22BCE0;
 	border-radius: 0.5em;
 	color: white;
+	float: left;
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
@@ -127,6 +162,19 @@ nav #publicar_nav a{
 	color: #444;
 	text-decoration: none;
 	
+}
+#contenido .item .votacion a {
+	text-decoration: none;
+}
+#contenido .item .votacion {
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin: 3px 0 0 0;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 92px;
 }
 
 
