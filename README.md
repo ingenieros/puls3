@@ -13,5 +13,5 @@ Plus3 App - Maquetado
 <img src="https://raw.github.com/rosinaaa/puls3/master/recursos/puls3r.jpg" alt="home para la app" width="500px">
 
 
-<h3>Propuesta para la Home Puls3r en proceso:</h3>
-<img src="http://d13yacurqjgara.cloudfront.net/users/80778/screenshots/1354186/attachments/192710/home-p.jpg" alt="home para la app" width="500px">
+<h3>Propuesta de mockup para mobile first Puls3r lista:</h3>
+<a href="http://dribbble.com/shots/1386244-Mobile-First-App-Mockup"><img src="http://d13yacurqjgara.cloudfront.net/users/80778/screenshots/1386244/puls3r-dribbble.png" alt="preview"></a>
